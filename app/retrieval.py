@@ -3,7 +3,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 
-cclass CatalogRetriever:
+class CatalogRetriever:
     def __init__(self, catalog):
         self.catalog = catalog
 
